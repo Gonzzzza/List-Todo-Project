@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+/* Estilos comunes */
+  /* Estilos para el modo claro */
+  .light {
+    background-color: white;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark {
+    background-color: rgb(19, 19, 93);
+  }
