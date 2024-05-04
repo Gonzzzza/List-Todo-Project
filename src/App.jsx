@@ -8,6 +8,7 @@ function App() {
   const [activeFilter, setActivefilter] = useState('all');
   const [filteredTodos, setFilteredTodos] = useState(toDos);
   
+
 // Agregar Tarea
   const addTodo =  (title) => {
     const lastId =  toDos.length > 0 ? toDos[toDos.length - 1].id : 1;  
@@ -21,7 +22,6 @@ function App() {
     const todoList = [...toDos]
     todoList.push(newTodo);
     setToDos(todoList);
-    console.log(todoList)
   }
 // Cambiar tarea de completada a no completada
   const handleSetComplete = (id) => {
